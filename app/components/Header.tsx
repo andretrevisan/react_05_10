@@ -7,6 +7,7 @@ export default function Header() {
         <div>
             <img className="w-full lg:h-full" src="img/header.svg" alt="Imagem de cabeçalho"/>
         </div>
+        
     </header>
     );
 }

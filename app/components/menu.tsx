@@ -36,20 +36,21 @@ export default function Menu() {
           </div>
           <div></div>
         </div>
-        
-
-
       </div>
-      <div className="flex justify-center p-4 gap-4 ">
-          <div>
-            <button className="bg-red-700 text-white font-bold py-2 px-4 rounded">Get Started</button>
-          </div>
-          <div>
-            <button className="bg-black text-white font-bold py-2 px-4 rounded">Learn More</button>
-          </div>
+      
+      
+      <div className="flex flex-col md:flex-row justify-center p-4 gap-4">
+        <div className="w-full md:w-auto">
+          <button className="w-full md:w-auto bg-red-700 hover:bg-red-500 text-white font-bold py-2 px-8 rounded">
+            Get Started
+          </button>
         </div>
+        <div className="w-full md:w-auto">
+          <button className="w-full md:w-auto bg-black hover:bg-gray-800 text-white font-bold py-2 px-8 rounded">
+            Learn More
+          </button>
+        </div>
+      </div>
     </div>
-
-
   );
 }
